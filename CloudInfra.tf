@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "ap-south-2"  # Updated AWS region
+  region = "ap-south-1"  # Updated AWS region
 }
 
 # Create an S3 bucket
