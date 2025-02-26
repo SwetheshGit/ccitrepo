@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 # Create an S3 bucket
-resource "aws_s3_bucket" "ccit_s3" {
+resource "aws_s3_bucket" "cciit_s3" {
   bucket = "ccit-public-bucket"
   tags = { Name = "ccit-public-bucket" }
 }
