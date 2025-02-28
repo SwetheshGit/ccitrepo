@@ -8,6 +8,6 @@ resource "aws_s3_bucket" "ccit_s3" {
 }
 
 resource "aws_s3_bucket" "cc_s3" {
-  bucket = "ccit-public-bucket"
+  bucket = "ccit_bucket"
   tags = { Name = "ccit s3" }
 }
